@@ -60,6 +60,21 @@
 // console.log("ageJohn: " + ageJohn);
 // console.log("ageMark: " + ageMark);
 
+// Deklaration
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+let ageJohn, ageMark;
+
+let date = new Date()
+let year = date.getFullYear();
+
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
+//Ausgabe
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
+
+
 
 
 
