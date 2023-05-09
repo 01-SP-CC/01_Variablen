@@ -9,7 +9,7 @@
 */
 
 // Konsolen-Ausgaben
-console.log("Hi");
+// console.log("Hi");
 // console.log(firstName);
 
 
@@ -32,9 +32,18 @@ console.log("Hi");
 
 /* JS ist eine untypisierte Sprache! | untyped */
 
-let test;
-test = "Max"; // string
-test = 2; // number
-test = true; // boolean
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// let test;
+// test = "Max"; // string
+// test = 2; // number
+// test = true; // boolean
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03a Konstanten *******/
+
+// let test = "Max"; // Deklaration + Wertzuweisung
+// test = "Maxine";
+// const test = "Max"; // Variable mit KONSTANTEM Inhalt
+// test = "Maxine"; // KEINE neue Zuweisung zur Laufzeit möglich! --> Fehler
+// console.log("Inhalt: " + test);
+
