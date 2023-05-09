@@ -14,11 +14,27 @@ console.log("Hi");
 
 
 /***** 02 Deklaration + Wertzuweisung I *******/
-let firstName; // Deklaration
-firstName = "Sven"; // Wertzuweisung
-console.log(firstName); //Ausgabe
+// let firstName; // Deklaration
+// firstName = "Sven"; // Wertzuweisung
+// console.log(firstName); //Ausgabe
 
-let familyName;
-familyName = "Perschke";
-console.log(familyName);
+// let familyName;
+// familyName = "Perschke";
+// console.log(familyName);
 
+/***** 03 Deklaration + Wertzuweisung II *******/
+
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben:");
+// familyName = prompt("Bitte Nachnamen eingeben:");
+// console.log(firstName + " " + familyName);
+// console.log(typeof firstName);
+
+/* JS ist eine untypisierte Sprache! | untyped */
+
+let test;
+test = "Max"; // string
+test = 2; // number
+test = true; // boolean
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
