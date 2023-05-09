@@ -47,3 +47,19 @@
 // test = "Maxine"; // KEINE neue Zuweisung zur Laufzeit möglich! --> Fehler
 // console.log("Inhalt: " + test);
 
+/***** 04 Beispiel - Berechnung *******/
+
+// Deklaration
+// const birthYearJohn = 2000;
+// const birthYearMark = 1990;
+// let ageJohn, ageMark;
+// // Wertzuweisung
+// ageJohn = 2023- birthYearJohn;
+// ageMark = 2023 - birthYearMark;
+// Ausgabe
+// console.log("ageJohn: " + ageJohn);
+// console.log("ageMark: " + ageMark);
+
+
+
+
